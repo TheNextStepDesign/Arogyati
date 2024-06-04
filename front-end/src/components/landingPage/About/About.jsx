@@ -3,7 +3,7 @@ import React from "react";
 const lists = ["16 Nov 2007 Clinic Inuagrated.","First In Kolhapur Private Rehab Center.","Advanced Modalities","2007 Mentamove.","2009 Matrix Rhythm Therapy.","2016 Magnetodyn.","2019 Class Iv Laser."," 2024 Super Induction System."]
 const About = () => {
   return (
-    <div className="bg-[#dedede] md:mt-[-100px] py-5 md:py-0 ">
+    <div className="bg-[#dedede] md:mt-[-140px] py-5 md:pb-10 ">
       <div className="w-[90%] md:w-[70%] 2xl:w-[1440px] m-auto">
         <h1 className="p-0 text-lg-h2 text-customgreen md:text-lg-h1 font-bold" >About</h1>
         <div className="flex flex-col md:flex-row  gap-2 pt-[40px]">
