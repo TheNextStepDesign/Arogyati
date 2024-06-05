@@ -20,8 +20,6 @@ const Landing = () => {
         <OurServices/>
         <Vision/>
         <FormTestimonial/>
-
-        
     </div>
   )
 }
