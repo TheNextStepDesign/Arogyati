@@ -22,9 +22,9 @@ const Introduction = () => {
                         {
                             lists.map(el=>(<li >{el}</li>))
                         }
-                        <div className='flex ' >
+                        <div className='flex w-[90%]' >
                             <li ></li>
-                            <pre className='font-sora' >Physiotherapy Services For Hospitalized & {"\n"}Bedridden Patients At Home.</pre>
+                            <p className='font-sora' >Physiotherapy Services For Hospitalized & {"\n"}Bedridden Patients At Home.</p>
                         </div>
                     </div>
                     <p>( Speech Therapy, Nutritionist, Prosthesis & Orthosis, Residential Facility, Psychological Counselling ) </p>
@@ -43,3 +43,6 @@ const Introduction = () => {
 }
 
 export default Introduction
+
+
+

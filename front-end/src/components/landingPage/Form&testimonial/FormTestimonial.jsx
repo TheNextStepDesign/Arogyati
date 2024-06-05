@@ -7,41 +7,24 @@ const data = [{title:"Dummy reviews", paragraph:["A testimonial is a first-hand 
 
 const FormTestimonial = () => {
   return (
-    <div className='bg-[#dedede]' >
-        <div className='md:h-[1000px] flex flex-col' >
+    <div className='bg-[#dedede] relative overflow-hidden' >
+        <div className='md:h-[1200px] flex flex-col ' >
 
         <div className='md:h-[50%] flex flex-col justify-center items-center gap-5' >
             <h1 className='md:text-lg-h2 text-lg-h3 text-customblue font-bold' >
             Appointment Form
             </h1>
-            <div className='flex flex-col gap-2 md:w-[40%]' >
-                <div className='bg-white p-1' >
-                    <input type="text" placeholder='Name' />
-                </div>
-                <div className='flex justify-between  gap-0' >
-                    <div className='bg-white p-1'><input type="number" placeholder='Age' /></div>
-                    <div className='bg-white p-1'><input type="number" placeholder='Weight' /></div>
-                    <div className='bg-white p-1'><input type="text" placeholder='Gender' /></div>
-                    <div className='bg-white p-1'><input type="date" placeholder='Date - DD/MM/YYYY' /></div>
-                    
-                </div>
-                <div className='bg-white p-1' >
-                    <input type="text" placeholder='Address' />
-                </div>
-                <div className='flex justify-between gap-2'>
-                    <div className='bg-white p-1 w-[50%]'><input type="number" placeholder='Mobile no.' /></div>
-                    <div className='bg-white p-1 w-[50%]'><input type="text" placeholder='Chief Complain' /></div>
-                </div>
-
+            <div className='w-[80%]md:w-[100%] p-4 z-10'  >
+                <img src={landingImages.formImg} alt="form-img"
+                className='w-[100%]' />
             </div>
         </div>
         <div className='md:h-[50%] flex flex-col justify-center items-center' >
             <h1 className='md:text-lg-h2 text-lg-h3 text-customblue font-bold' >
             Testimonial
             </h1>
-            <div className='w-[50%] m-auto bg-white rounded-tr-[100px] rounded-bl-[100px] py-10 px-5' >
-                
-
+            <div className='md:w-[50%] w-[90%] m-auto md:bg-white md:rounded-tr-[100px] md:rounded-bl-[100px] md:py-10 md:px-5 z-10' >
+    
                 <Caroseltem isFooter={true} data={data}/>
                 
             </div>
@@ -49,6 +32,7 @@ const FormTestimonial = () => {
         
             
         </div>
+        <img src={landingImages.greenSvg}  alt="green-svg" className='p-0 rotate-180 absolute left-[-1200px] bottom-[-1010px] z-0' />
     </div>
   )
 }

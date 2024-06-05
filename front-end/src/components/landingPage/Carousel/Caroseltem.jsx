@@ -14,7 +14,7 @@ const Caroseltem = ({isFooter, data}) => {
         opts={{
           align: "start",
         }}
-        className="w-[94%] m-auto"
+        className="z-1"
       >
         <CarouselContent >
           {data.map((el,index) => (

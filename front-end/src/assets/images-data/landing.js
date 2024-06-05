@@ -5,6 +5,12 @@ export const landingImages ={
     image2:"/images/image2.png",
     image3:"/images/image3.png",
     image4:"/images/image4.ong.png",
-    greenSvg:"/icons/greenSvg.svg",
-    starIcon:"/icons/star.jpg"
+    greenSvg:"/icons/greensvg.svg",
+    starIcon:"/icons/star.jpg",
+    formImg: "/images/form.png"
 }
+
+
+export const SingleCarosuselData1 = [landingImages.image3,landingImages.image3,landingImages.image3]
+
+export const SingleCarosuselData2 = [landingImages.image4,landingImages.image4,landingImages.image4]

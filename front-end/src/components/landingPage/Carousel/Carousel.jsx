@@ -13,8 +13,8 @@ const rebios = [
 const Slider = () => {
   return (
     <div className="bg-[#dedede]  " >
-    <div  className="w-[90%] md:w-[70%] 2xl:w-[1440px] m-auto p-10 ">
-      <h1 className="text-lg-h2 text-customblue font-bold p-4" >Team Bio - Doctors</h1>
+    <div  className="w-[100%] md:w-[70%] 2xl:w-[1440px] m-auto  ">
+      <h1 className="md:text-lg-h2 text-lg-h3 text-customblue font-bold pb-4" >Team Bio - Doctors</h1>
       <Caroseltem data={rebios} />
     </div>
     </div>
