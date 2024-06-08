@@ -1,27 +1,50 @@
-import React from 'react'
+import { Button } from "@/components/ui/button"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
-const FormModal = () => {
+import { Label } from "@/components/ui/label"
+import FormElement from "./FormElement"
+
+const FormModal =() => {
   return (
-    <div className='flex flex-col gap-2 md:w-[40%] w-[80%]' >
-                <div className='bg-white p-1' >
-                    <input type="text" placeholder='Name' />
-                </div>
-                <div className='flex justify-between  gap-0' >
-                    <div className='bg-white p-1'><input type="number" placeholder='Age' /></div>
-                    <div className='bg-white p-1'><input type="number" placeholder='Weight' /></div>
-                    <div className='bg-white p-1'><input type="text" placeholder='Gender' /></div>
-                    <div className='bg-white p-1'><input type="date" placeholder='Date - DD/MM/YYYY' /></div>
-                    
-                </div>
-                <div className='bg-white p-1' >
-                    <input type="text" placeholder='Address' />
-                </div>
-                <div className='flex justify-between gap-2'>
-                    <div className='bg-white p-1 w-[50%]'><input type="number" placeholder='Mobile no.' /></div>
-                    <div className='bg-white p-1 w-[50%]'><input type="text" placeholder='Chief Complain' /></div>
-                </div>
-
-    </div>
+    <Dialog>
+      <DialogTrigger asChild>
+        <Button className='bg-[#7D8E39] hover:bg-customblue' >Open Form</Button>
+      </DialogTrigger>
+      <DialogContent className="md:w-[40%] w-[80%] bg-[#7D8E39]">
+        <DialogHeader>
+          <DialogTitle className='text-white' >Appointment Form</DialogTitle>
+          {/* <DialogDescription>
+            Make changes to your profile here. Click save when you're done.
+          </DialogDescription> */}
+        </DialogHeader>
+        {/* <div className="grid gap-4 py-4">
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Label htmlFor="name" className="text-right">
+              Name
+            </Label>
+            <Input id="name" value="Pedro Duarte" className="col-span-3" />
+          </div>
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Label htmlFor="username" className="text-right">
+              Username
+            </Label>
+            <Input id="username" value="@peduarte" className="col-span-3" />
+          </div>
+        </div> */}
+        <FormElement/>
+        <DialogFooter>
+          <Button type="submit" className='bg-white text-customblue  hover:bg-customblue hover:text-white'>Submit</Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
   )
 }
 

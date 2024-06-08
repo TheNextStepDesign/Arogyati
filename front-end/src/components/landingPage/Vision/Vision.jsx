@@ -1,9 +1,28 @@
-import React from 'react'
-
+import React from "react";
+import Caroseltem from "../Carousel/Caroseltem";
+const data = [
+  {
+    title: "Our Vision",
+    paragraph: ["Illness To Wellness", "Serving Society", "Wellbeing For All"],
+  },
+  {
+    title: "Our Mission",
+    paragraph: [
+      "Quality Service",
+      "Holistic Approach",
+      "Physio Awareness",
+      "Providing Advance Treatments For Faster Recovery Of Patients",
+    ],
+  },
+];
 const Vision = () => {
   return (
-    <div className='bg-white' >  Vision</div>
-  )
-}
+    <div className=" flex items-center py-12 md:py-1 ">
+      <div className=" h-[250px] w-[70%] m-auto" >
+        <Caroseltem data={data} shadow={false} singleSlide={true} indicator={true} />
+      </div>
+    </div>
+  );
+};
 
-export default Vision
+export default Vision;

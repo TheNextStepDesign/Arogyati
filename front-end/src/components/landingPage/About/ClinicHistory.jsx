@@ -7,9 +7,9 @@ const ClinicHistory = () => {
       <div className="md:text-lg-h2 text-customblue font-bold pb-4 text-lg-h3">
         Clinic History
       </div>
-      <ol className="flex flex-col gap-3 w-[80%] md:text-lg-h3 ">
+      <ol className="flex flex-col gap-3 md:w-[80%] w-[100%]  ">
         {lists.map((el, i) => (
-          <li className={i % 2 == 0 ? "bg-white" : null}>
+          <li key={i} className={i % 2 == 0 ? "bg-white" : null}>
             {i + 1 + ". " + el}
           </li>
         ))}

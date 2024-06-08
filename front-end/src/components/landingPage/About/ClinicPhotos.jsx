@@ -8,7 +8,7 @@ const ClinicPhotos = () => {
       <div className="md:text-lg-h2 text-customblue font-bold pb-4 text-lg-h3">
         Clinic Photos
       </div>
-      <div className="w-[90%]" >
+      <div className="w-[100%]" >
         < SingleCarousel images={SingleCarosuselData1} />
       </div>
       {/* <img
