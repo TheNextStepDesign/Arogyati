@@ -13,8 +13,8 @@ const Faqs = [{item:"item-1",question:"How Many Days Should the Treatment Be Tak
       <Accordion type="single" collapsible className="w-full">
         {
             Faqs.map((data,i)=>(<AccordionItem key={i} className='border-[#7D8E39]' value={data.item}>
-            <AccordionTrigger>{data.question}</AccordionTrigger>
-            <AccordionContent>
+            <AccordionTrigger className='text-left' >{data.question}</AccordionTrigger>
+            <AccordionContent className='text-left' >
               {data.answer}
             </AccordionContent>
           </AccordionItem>))

@@ -1,4 +1,3 @@
-import React from "react";
 import Caroseltem from "../Carousel/Caroseltem";
 const data = [
   {
@@ -18,8 +17,8 @@ const data = [
 const Vision = () => {
   return (
     <div className=" flex items-center py-12 md:py-1 ">
-      <div className=" h-[250px] w-[70%] m-auto" >
-        <Caroseltem data={data} shadow={false} singleSlide={true} indicator={true} />
+      <div className=" h-[250px]  m-auto" >
+        <Caroseltem data={data} shadow={false} singleSlide={true} indicator={true} visionArrow={true} />
       </div>
     </div>
   );

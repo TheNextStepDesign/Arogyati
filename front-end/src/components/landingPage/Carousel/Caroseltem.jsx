@@ -9,7 +9,7 @@ import {
 import { useState } from "react";
   
 
-const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator}) => {
+const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator,visionArrow}) => {
 
   const [selectedIndex, setSelectedIndex] = useState(0);
   return (
@@ -30,9 +30,9 @@ const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator}) => {
               <div className="p-1">
                 <Card className={`p-5 ${shadow?"shadow-md":"shadow-none border-none"}`} >
                   <CardHeader className='pb-5' >
-                    <CardTitle className="md:text-lg-h3" >{el.title}</CardTitle>
+                    <CardTitle className={`md:text-lg-h3 ${visionArrow?"text-center":null}`} >{el.title}</CardTitle>
                   </CardHeader>
-                  <CardContent className="flex flex-col gap-2 pb-1">
+                  <CardContent className={`flex flex-col gap-2 pb-1  ${visionArrow?"items-center":null}`}>
                       {
                         el.paragraph.map((des,i)=>(<p key={i} >{des}</p>))
                       }
@@ -47,8 +47,8 @@ const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator}) => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious  className='-left-5 md:-left-12' />
-        <CarouselNext className='-right-5 md:-right-12'/>
+        <CarouselPrevious  className={visionArrow?"left-5 md:-left-10 lg:-left-20  2xl:-left-[40%]":"-left-5 lg:-left-12"} />
+        <CarouselNext className={visionArrow?"right-5 md:-right-10 lg:-right-20 2xl:-right-[40%]":"-right-5 lg:-right-12"}/>
       </Carousel>
 
       {

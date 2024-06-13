@@ -10,7 +10,7 @@ const Logo = () => {
           >
             <img
               src={landingImages.navIcon}
-              className="h-8"
+              className="h-8  2xl:h-12"
               alt="Logo"
             />
             {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">

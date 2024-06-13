@@ -7,22 +7,24 @@ const IntruductionLeft = () => {
       <div className="md:text-lg-h2 text-customblue font-bold pb-4 text-lg-h3">
         Introduction
       </div>
-      <div className="flex flex-col gap-2 w-[100%]  ">
+      <div className="flex flex-col gap-2 w-[100%] ">
         {lists.map((el,i) => (
-          <li key={i}>{el}</li>
+          <li className="2xl:text-lg-h3 " key={i}>{el}</li>
         ))}
-        <div className="flex w-[90%]">
+        <div className="flex w-[90%] 2xl:text-lg-h3 ">
           <li></li>
           <p className="font-sora">
             Physiotherapy Services For Hospitalized & {"\n"}Bedridden Patients
             At Home.
           </p>
         </div>
-      </div>
-      <p>
+
+
+      <p className="2xl:pl-8 pl-5" >
         ( Speech Therapy, Nutritionist, Prosthesis & Orthosis, Residential
         Facility, Psychological Counselling ){" "}
       </p>
+      </div>
     </div>
   );
 };
