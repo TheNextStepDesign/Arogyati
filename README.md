@@ -1,6 +1,6 @@
 # Arogyati
 
-Arogyati clinic is a Physiotherapy Center and Psychological Counselling.
+Arogyati Clinic is a Physiotherapy Center and Psychological Counselling.
 
 ## Features
 
