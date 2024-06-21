@@ -28,7 +28,7 @@ const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator,visionArrow}) =
           {data.map((el,index) => (
             <CarouselItem key={index} className={singleSlide?"":"md:basis-1/2 lg:basis-1/3"}>
               <div className="p-1">
-                <Card className={`p-5 ${shadow?"shadow-md":"shadow-none border-none"}`} >
+                <Card className={`p-6 md:p-8 ${shadow?"shadow-md":"shadow-none border-none"}`} >
                   <CardHeader className='pb-5' >
                     <CardTitle className={`md:text-lg-h3 ${visionArrow?"text-center":null}`} >{el.title}</CardTitle>
                   </CardHeader>
@@ -47,8 +47,8 @@ const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator,visionArrow}) =
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious  className={visionArrow?"left-5 md:-left-10 lg:-left-20  2xl:-left-[40%]":"-left-5 lg:-left-12"} />
-        <CarouselNext className={visionArrow?"right-5 md:-right-10 lg:-right-20 2xl:-right-[40%]":"-right-5 lg:-right-12"}/>
+        <CarouselPrevious  className={visionArrow?"left-5 md:-left-10 lg:-left-20  2xl:-left-[40%]":"-left-5 lg:-left-20"} />
+        <CarouselNext className={visionArrow?"right-5 md:-right-10 lg:-right-20 2xl:-right-[40%]":"-right-5 lg:-right-20"}/>
       </Carousel>
 
       {

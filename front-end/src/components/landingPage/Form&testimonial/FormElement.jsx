@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 
 const FormElement = ({bg=true}) => {
   return (
-    <div className={`flex flex-col md:gap-2 gap-3 bg-white  w-[100%] md:p-2 p-3 rounded-2xl`} >
+    <div className={`flex flex-col md:gap-5 gap-3 bg-white w-[80%]  md:w-[100%] md:p-5 p-3 rounded-2xl`} >
                 <div className='p-0 bg-[#dedede] rounded-2xl' >
                     <Input type="text" placeholder='Name' className='bg-[#dedede]'/>
                 </div>
@@ -22,7 +22,7 @@ const FormElement = ({bg=true}) => {
                     <div className='bg-[#dedede] p-0 md:w-[50%] rounded-2xl'><Input className='bg-[#dedede]' type="number" placeholder='Mobile no.' /></div>
                     <div className='bg-[#dedede] p-0 md:w-[50%] rounded-2xl'><Input className='bg-[#dedede]' type="text" placeholder='Chief Complain' /></div>
                 </div>
-                <div>
+                <div className='m-auto' >
                   <Button vavariant='default'  className='bg-customblue hover:bg-customgreen' >Submit</Button>
                 </div>
 

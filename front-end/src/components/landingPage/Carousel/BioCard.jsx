@@ -5,7 +5,7 @@ function BioCard({data}) {
   return (
     <div className='flex flex-col md:flex-row gap-6 pb-4'>
         {
-            data.map((data,index)=><Card key={index} className='w-[100%]  md:w-[50%] p-5 ' >
+            data.map((data,index)=><Card key={index} className='w-[100%]  md:w-[50%] p-6 md:p-8 ' >
             <CardHeader>
                 <div className='flex flex-col md:flex-row  md:items-end gap-5 pb-2' >
                     <div>

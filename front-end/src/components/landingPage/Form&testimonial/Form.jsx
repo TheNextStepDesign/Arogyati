@@ -9,7 +9,7 @@ const Form = () => {
           <h1 className="md:text-lg-h2 text-lg-h3 text-customblue font-bold">
             Appointment Form
           </h1>
-          <div className=" relative group w-[100%] md:w-[50%] p-4 z-5  flex items-center justify-center">
+          <div className=" relative group w-[100%] md:w-[50%] p-4 z-5  flex items-center justify-center  ">
             {/* <img
               src={landingImages.formImg}
               alt="form-img"

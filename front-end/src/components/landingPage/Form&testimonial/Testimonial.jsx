@@ -35,11 +35,11 @@ const data = [
 
 const Testimonial = () => {
   return (
-    <div id='Testimonial' className="md:h-[50%] flex flex-col justify-center items-center">
+    <div id='Testimonial' className="md:h-[50%] flex flex-col justify-center items-center ">
           <h1 className="md:text-lg-h2 text-lg-h3 text-customblue font-bold py-5">
             Testimonial
           </h1>
-          <div className="md:w-[50%] w-[90%] m-auto md:bg-white md:rounded-tr-[100px] md:rounded-bl-[100px] md:py-10 md:px-5 z-5">
+          <div className="md:w-[50%] w-[80%] m-auto md:bg-white md:rounded-tr-[100px] md:rounded-bl-[100px] md:py-10 md:px-5 z-5">
             <Caroseltem isFooter={true} data={data} singleSlide={true} indicator={true} />
           </div>
         </div>
