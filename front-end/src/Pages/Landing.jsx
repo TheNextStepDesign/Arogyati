@@ -1,3 +1,4 @@
+import { landingImages } from '@/assets/images-data/landing'
 import About from '@/components/landingPage/About/About'
 import Slider from '@/components/landingPage/Carousel/Carousel'
 import Faqs from '@/components/landingPage/FAQ/Faqs'
@@ -13,7 +14,7 @@ import React from 'react'
 const Landing = () => {
   return (
     <div >
-        <FrontPoster/>
+        <FrontPoster img={landingImages.frontPoster} />
         <HeroSection/>
         <Introduction/>
         <About/>

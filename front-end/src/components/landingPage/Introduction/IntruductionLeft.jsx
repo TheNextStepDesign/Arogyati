@@ -1,17 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import CustomLink from "../comman/customLink";
+import CustomH2 from "../comman/CustomHeading";
 const lists = ["First Big Private Clinic In Kolhapur.","Having Advance Modalities.","Working For Holistic Approch.","Working Like A Rehabe Center "]
 
 const IntruductionLeft = () => {
   return (
-    <div className="lg:w-[50%] w-[100%] flex flex-col">
-      <div className="md:text-lg-h2 text-customblue font-bold pb-4 text-lg-h3">
-        Introduction
-      </div>
-      <div className="flex flex-col gap-2 w-[100%] ">
+    <div className="lg:w-[50%] w-[100%] flex flex-col gap-5  xl:gap-14">
+      <CustomH2>Why choose us?</CustomH2>
+
+      <div className="flex flex-col gap-3 w-[100%] ">
         {lists.map((el,i) => (
-          <li className="2xl:text-lg-h3 " key={i}>{el}</li>
+          <li className=" " key={i}>{el}</li>
         ))}
-        <div className="flex w-[90%] 2xl:text-lg-h3 ">
+        <div className="flex w-[90%]  ">
           <li></li>
           <p className="font-sora">
             Physiotherapy Services For Hospitalized & {"\n"}Bedridden Patients
@@ -20,11 +22,12 @@ const IntruductionLeft = () => {
         </div>
 
 
-      <p className="2xl:pl-8 pl-5" >
+      <p className="2xl:pl-8 pl-5 text-sm" >
         ( Speech Therapy, Nutritionist, Prosthesis & Orthosis, Residential
         Facility, Psychological Counselling ){" "}
       </p>
       </div>
+      <CustomLink href={'/services'} title={"VIEW SERVICES"} />
     </div>
   );
 };

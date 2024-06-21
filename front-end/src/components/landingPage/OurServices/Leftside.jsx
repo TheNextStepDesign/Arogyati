@@ -4,7 +4,7 @@ import SingleCarousel from '../Carousel/SingleCarousel'
 
 const Leftside = () => {
   return (
-    <div className='md:w-[50%]' >
+    <div className='md:w-[50%] ' >
         < SingleCarousel images={SingleCarosuselData2} />
     </div>
   )

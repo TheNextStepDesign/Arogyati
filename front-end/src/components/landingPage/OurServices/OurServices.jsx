@@ -2,13 +2,14 @@ import { landingImages } from '@/assets/images-data/landing'
 import React from 'react'
 import Leftside from './Leftside'
 import Rightside from './Rightside'
+import { laptopWidth, mobileWidth, monitorWidth } from '@/lib/css'
 
 
 
 const OurServices = () => {
   return (
     <div id='Services' className="bg-[#dedede] relative overflow-hidden ">
-        <div className='w-[90%] md:w-[70%] 2xl:w-[1440px]  m-auto flex flex-col md:flex-row items-center py-10 md:gap-10' >
+        <div className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}]  m-auto flex flex-col  md:items-center md:flex-row   py-10 md:gap-10`} >
             <Leftside/>
             <Rightside/>
         </div>

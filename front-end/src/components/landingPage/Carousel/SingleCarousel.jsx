@@ -52,12 +52,13 @@ const SingleCarousel = ({ images }) => {
           align: "start",
         }}
         onSelect={(index) => setSelectedIndex(index)}
+        
       >
         <CarouselContent>
           {images.map((img, index) => (
-            <CarouselItem key={index}>
+            <CarouselItem key={index} >
               <div>
-                <img src={img} alt={index + img} width='100%' />
+                <img src={img} alt={index + img} width='100%' className='p-0 object-contain' />
               </div>
             </CarouselItem>
           ))}

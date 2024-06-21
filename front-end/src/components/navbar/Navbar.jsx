@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <Headroom className="relative z-30">
       <nav className="dark:bg-gray-900 bg-white bg-opacity-30 backdrop-blur-lg shadow-lg">
-        <div className="flex items-center justify-between py-5 w-[90%] lg:w-[70%] m-auto 2xl:w-[1440px]">
+        <div className="flex items-center justify-between py-5 w-[90%] lg:w-[80%] m-auto min-[1800px]:w-[1640px] 2xl:w-[1200px]">
           <Logo />
           <Manubtn handleToggle={handleToggle} />
           <Navitems navlinks={navlinks} />

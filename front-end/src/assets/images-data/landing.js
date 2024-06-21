@@ -1,13 +1,22 @@
 export const landingImages ={
     navIcon:"/logos/navLogo.svg",
-    frontPoster:"/images/frontPoster.png",
-    image1:"/images/image1.png",
-    image2:"/images/image2.png",
-    image3:"/images/image3.png",
-    image4:"/images/image4.ong.png",
+    frontPoster:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804896/frontPoster_ycldf7.png",
+    image1:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804889/image1_jpffhf.png",
+    image2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804891/image2_cri6hx.png",
+    image3:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804891/image3_p6xtvf.png",
+    image4:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804893/image4.ong_xkwzl5.png",
     greenSvg:"/icons/greensvg.svg",
-    starIcon:"/icons/star.jpg",
-    formImg: "/images/form.png"
+    starIcon:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718805184/star_hhbmea.jpg",
+    formImg: "/images/form.png",
+    hours:"/icons/hours.png",
+    doctorImg1:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804895/img1_zdnu39.png",
+    doctorImg2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804896/img2_kvmdiu.png",
+    timeline :"/icons/timeline.svg"
+}
+
+export const serviceFacalityImages ={
+    frontPoster: 'https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718805290/ServiceFacality_i0nosc.png',
+    image2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718805285/ServiceImg1_qhafbm.png"
 }
 
 
