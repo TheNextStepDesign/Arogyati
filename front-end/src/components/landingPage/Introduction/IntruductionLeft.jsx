@@ -22,7 +22,7 @@ const IntruductionLeft = () => {
         </div>
 
 
-      <p className="2xl:pl-8 pl-5 text-sm" >
+      <p className=" text-sm" >
         ( Speech Therapy, Nutritionist, Prosthesis & Orthosis, Residential
         Facility, Psychological Counselling ){" "}
       </p>

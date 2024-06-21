@@ -45,7 +45,7 @@ const Introduction = () => {
       <div className="p-0 md:absolute bg-[#dedede] md:top-0 md:h-20 md:w-[100%] z-0 hidden md:block" >
       </div>
       <div className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}] m-auto`}>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:z-10 lg:py-10 2xl:py-8">
+        <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4 md:z-10 lg:py-10 2xl:py-8">
           <IntruductionLeft />
           <IntroductionRight />
         </div>

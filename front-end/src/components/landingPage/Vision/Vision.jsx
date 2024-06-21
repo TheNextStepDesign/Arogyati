@@ -35,7 +35,7 @@ const Vision = () => {
           <VisionBox />
         </div>
 
-        <div className="w-[95%] m-auto text-center">
+        <div className="w-[80%] m-auto text-center ">
           <h2 className="text-lg-h3 md:text-lg-h2 text-customblue font-bold pb-5">
             First Well Equipped Physiotherapy Center With Ultra Modern German
             Technologies in Kolhapur
