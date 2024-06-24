@@ -7,7 +7,7 @@ const data = ["Psychological Counseling","Dietitian Advice","Physiotherapy Servi
 
 const ServicesCard = () => {
   return (
-    <div  className='py-24 bg-[#dedede97] '>
+    <div  className='py-10 md:py-24  '>
         <div className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}] m-auto`}>
             <div className='flex flex-col gap-10' >
                 <div>
@@ -17,7 +17,7 @@ const ServicesCard = () => {
 
                     {
                         data.map((el,index)=><div key={index} className=' w-[48%] sm:w-[48%] md:w-[30%] lg:w-[23%] h-[180px] md:h-[245px]' >
-                            <Card className='h-full flex justify-center items-center bg-[#D9D9D9]  hover:shadow-[#7D8E39] cursor-pointer' >
+                            <Card className='h-full flex justify-center items-center bg-[#cbcaca]  hover:shadow-[#7D8E39] cursor-pointer' >
                                 <p className='w-[80%] text-center font-bold' >
                                 {el}
                                 </p>

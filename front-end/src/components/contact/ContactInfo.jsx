@@ -4,7 +4,7 @@ import CustomLink from "../landingPage/comman/customLink"
 
 const ContactInfo = () => {
   return (
-    <div className="flex flex-col gap-4 w-full md:w-1/2" >  
+    <div className="flex flex-col justify-evenly gap-4 w-full md:w-1/2 " >  
 
     <div>
         <CustomH2>

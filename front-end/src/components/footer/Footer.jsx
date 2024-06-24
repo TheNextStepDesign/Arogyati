@@ -110,7 +110,7 @@ export default function Footer() {
     //     </a>
     //   </div>
     // </footer>
-    <footer id="Contact" className=" bg-[#393939] text-center text-white">
+    <footer  className=" bg-[#393939] text-center text-white">
       <div className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}] m-auto`}>
         <div className="flex justify-center flex-col md:flex-row gap-5  md:gap-0 py-5">
           <div className="w-full md:w-[80%] flex flex-col justify-evenly  gap-3">

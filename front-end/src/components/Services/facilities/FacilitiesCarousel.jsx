@@ -24,7 +24,7 @@ const FacilitiesCarousel = ({data,visionArrow,singleSlide}) => {
             className={singleSlide ? "" : "sm:basis-1/2 lg:basis-1/3"}
           >
             <div  >
-              <Card className="bg-[#c4c4c4bc] h-[350px]   px-5 py-10 flex flex-col gap-5 hover:shadow-[#7D8E39] hover:shadow-lg">
+              <Card className="bg-[#cbcaca] h-[350px]   px-5 py-10 flex flex-col gap-5 hover:shadow-[#7D8E39] hover:shadow-lg">
                 <Card className="w-[150px] h-[150px] ">
                   <img src={el.img}  alt="ong-eg" className="p-0 object-cover w-full h-full rounded-2xl transform transition-transform duration-300 hover:scale-125"  />
                 </Card>

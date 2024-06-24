@@ -1,6 +1,7 @@
 export const landingImages ={
     navIcon:"/logos/navLogo.svg",
     frontPoster:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804896/frontPoster_ycldf7.png",
+    frontPosterMob:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1719216096/frontPosterMobile_nznvzp.png",
     image1:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804889/image1_jpffhf.png",
     image2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804891/image2_cri6hx.png",
     image3:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804891/image3_p6xtvf.png",
@@ -16,6 +17,7 @@ export const landingImages ={
 
 export const serviceFacalityImages ={
     frontPoster: 'https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718805290/ServiceFacality_i0nosc.png',
+    frontPosterMob:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1719216457/serviseFrontPosterMobile_cu8txc.png",
     image2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718805285/ServiceImg1_qhafbm.png"
 }
 

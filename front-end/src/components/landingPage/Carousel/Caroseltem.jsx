@@ -16,8 +16,7 @@ const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator,visionArrow}) =
 
     <div>
 
-    
-    <Carousel
+      <Carousel
         opts={{
           align: "start",
         }}
@@ -28,7 +27,7 @@ const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator,visionArrow}) =
           {data.map((el,index) => (
             <CarouselItem key={index} className={singleSlide?"":"md:basis-1/2 lg:basis-1/3"}>
               <div className="p-1">
-                <Card className={`p-6 md:p-8 ${shadow?"shadow-md":"shadow-none border-none"}`} >
+                <Card className={`p-6 md:p-8 ${shadow?"shadow-md":"shadow-none border-none"} ${isFooter?"":"h-[350px]"}`} >
                   <CardHeader className='pb-5' >
                     <CardTitle className={`md:text-lg-h3 ${visionArrow?"text-center":null}`} >{el.title}</CardTitle>
                   </CardHeader>
@@ -38,7 +37,7 @@ const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator,visionArrow}) =
                       }
                   </CardContent>
                   {
-                    isFooter?<CardFooter>
+                    isFooter?<CardFooter className='p-2' >
                     <img src={el.footer} width="150" alt="" />
                   </CardFooter>:null
                   }
@@ -62,7 +61,6 @@ const Caroseltem = ({isFooter,data,shadow, singleSlide,indicator,visionArrow}) =
         ))}
       </div>:null
       }
-
       </div>
   )
 }

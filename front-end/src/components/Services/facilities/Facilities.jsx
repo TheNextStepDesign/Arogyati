@@ -13,7 +13,7 @@ const data = [{img:"",title:"Super Inductive System",des:"These pulses can help 
 
 const Facilities = () => {
   return (
-    <div className="bg-[#dedede97] py-20" >
+    <div className=" py-20" >
 
         <div className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}] m-auto flex flex-col gap-10`}  >
 
