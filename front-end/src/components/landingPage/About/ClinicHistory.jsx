@@ -18,7 +18,7 @@ const ClinicHistory = () => {
       </div>
 
       <div className="flex  gap-2 ">
-        <ol className=" flex-col hidden  md:flex xl:gap-9 2xl:gap-[35px]  pt-5 2xl:text-lg-h3 ">
+        <ol className=" flex-col hidden  md:flex xl:gap-9  2xl:gap-[35px] min-[1800px]:gap-[45px]  pt-5  ">
           {year.map((el, i) => (
             <li key={i} className={i == 0 ? "md:pb-4 pb-1" : ""}>
               {el}
@@ -29,10 +29,10 @@ const ClinicHistory = () => {
           <img
             src={landingImages.timeline}
             alt="time-line"
-            className="h-[380px] 2xl:h-[250px] min-[1800px]:h-[470px] object-contain"
+            className="h-[380px] 2xl:h-[380px] min-[1800px]:h-[450px] object-contain"
           />
         </div>
-        <ol className="flex flex-col gap-[38px] min-[1800px]:gap-9 md:w-[80%] w-[100%] 2xl:text-lg-h3  ">
+        <ol className="flex flex-col gap-[38px] min-[1800px]:gap-[49px] md:w-[80%] w-[100%]   ">
           {lists.map((el, i) => (
             <div key={i} >
 

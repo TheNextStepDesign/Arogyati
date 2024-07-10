@@ -1,8 +1,8 @@
 import { carouselImages } from "./images";
 
-export const carouselData = [{img:carouselImages.SuperInductiveSystem,title:"Super Inductive System",des:"These pulses can help improve joint mobilization and increase circulation and action of the joints."},
-    {img:carouselImages.MatrixRhythmTherapy,title:"Matrix Rhythm Therapy",des:"Advanced German Therapy used for effective deep muscle relaxation."},
-    {img:carouselImages.Magnetodyn,title:"Magnetodyn",des:"This therapy is used to preserve the normal and healthy tissues and heal the damaged tissues at the cellular level."},
-    {img:carouselImages.ClassIVLaser,title:"Class IV Laser",des:"Used to relieve severe localized pain and reduce swelling."},
-    {img:carouselImages.Osteopathy,title:"Osteopathy",des:"It is an alternative medicine where physiotherapist realign the body by moving, stretching and massaging a persons muscle & joints."}
+export const carouselData = [{img:carouselImages.SuperInductiveSystem,title:"Super Inductive System (SIS)",des:["It gives the effect of a strong pulsed electromagnetic field in human tissue.","Therapy is based on the principle of time-varying electromagnetic field passing through neural & muscular tissue in which electric currents are induced.","It has intensity of 0.85 Tesla; triggers strong muscle contractions & contributes to pain management."]},
+    {img:carouselImages.MatrixRhythmTherapy,title:"Matrix Rhythm Therapy",des:["Our cells oscillate rhythmically. Once this rhythmic pulsation is disturbed in any way, slowing down of healthy processes and congestion in the normal flow of fluid is seen.","Via a specially developed resonator produces vibration with frequency & amplitude spectrum between 8 & 12 Hz which is equal & similar to the normal cells in human body."]},
+    {img:carouselImages.Magnetodyn,title:"Magnetodyn",des:["Unique feature is the combination of magnetic therapy & electrotherapy.","Slow oscillating magnetic field in the frequency range from 2 to 20 Hz is created around the affected body part.","These magnetic fields are 100 times stronger than Earth’s magnetic field, which improves the cellular metabolism."]},
+    {img:carouselImages.ClassIVLaser,title:"Class IV Laser [Zimme]",des:["Non-invasive use of laser energy to generate a photochemical response in damaged/dysfunctional tissue.","It uses a high-powered laser to penetrate deep into the tissue & stimulate healing at a cellular level."]},
+    {img:carouselImages.Osteopathy,title:"Osteopathy",des:["It is an alternative medicine where physiotherapist realign the body by moving, stretching and massaging a persons muscle & joints."]}
 ]

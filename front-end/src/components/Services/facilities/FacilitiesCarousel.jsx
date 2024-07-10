@@ -24,8 +24,8 @@ const FacilitiesCarousel = ({data,visionArrow,singleSlide}) => {
             className={singleSlide ? "" : "sm:basis-1/2 lg:basis-1/3"}
           >
             <div  >
-              <Card className="bg-[#cbcaca] h-[350px]   px-5 py-10 flex flex-col gap-5 hover:shadow-[#7D8E39] hover:shadow-lg">
-                <Card className="w-[150px] h-[150px] ">
+              <Card className="bg-[#cbcaca] h-[700px] md:h-[500px]   px-5 py-10 flex flex-col gap-5 hover:shadow-[#7D8E39] hover:shadow-lg">
+                <Card className="w-[150px] h-[150px] m-auto md:m-0 ">
                   <img src={el.img}  alt="ong-eg" className="p-0 object-cover w-full h-full rounded-2xl transform transition-transform duration-300 hover:scale-125"  />
                 </Card>
 
@@ -33,9 +33,13 @@ const FacilitiesCarousel = ({data,visionArrow,singleSlide}) => {
                   <h3 className="text-[22px] font-bold">{el.title}</h3>
                 </div>
                 <div >
-                  <p>
-                    {el.des}
-                  </p>
+                  <ul className="list-outside list-disc pl-5" >
+                    {/* {el.des} */}
+                    {
+                      el.des.map((el,i)=><li key={i}>{el}</li>)
+                    }
+
+                  </ul>
                 </div>
               </Card>
             </div>
