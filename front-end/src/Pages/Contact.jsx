@@ -1,5 +1,6 @@
 import ContactBody from "@/components/contact/ContactBody"
 import FrontPoster from "@/components/contact/FrontPoster"
+import WhatsappRipple from "@/components/contact/WhatsappRipple";
 import { useEffect } from "react";
 
 
@@ -15,6 +16,7 @@ const Contact = () => {
     <div>
         <FrontPoster/>
         <ContactBody/>
+        {/* <WhatsappRipple/> */}
     </div>
   )
 }

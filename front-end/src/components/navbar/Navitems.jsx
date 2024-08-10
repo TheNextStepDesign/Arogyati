@@ -49,6 +49,7 @@ export const Navitems = ({ navlinks }) => {
                 <ScrollNav to={item.to}>{item.name}</ScrollNav>
               )}
             </NavLink>
+            
           </li>
         ))}
       </ul>

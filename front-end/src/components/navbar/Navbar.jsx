@@ -38,12 +38,13 @@ const Navbar = () => {
           <Logo />
           <Manubtn handleToggle={handleToggle} />
 
-          {
+          {/* {
 
             pathname != '/'?<Navitems1 navlinks1={navlinks1} />:<Navitems navlinks={navlinks} />
 
 
-          }
+          } */}
+          <Navitems1 navlinks1={navlinks1}/>
           
 
         </div>

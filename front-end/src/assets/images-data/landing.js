@@ -1,8 +1,8 @@
 export const landingImages ={
     navIcon:"/logos/navLogo.svg",
-    frontPoster:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804896/frontPoster_ycldf7.png",
-    frontPosterMob:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1719216096/frontPosterMobile_nznvzp.png",
-    image1:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804889/image1_jpffhf.png",
+    frontPoster:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723283160/Mask_group_ecgtch.png", //
+    frontPosterMob:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723283499/frontposterweb_bxtzrz.png", //
+    image1:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723283038/Mask_group_kegnkg.png", //
     image2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804891/image2_cri6hx.png",
     image3:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804891/image3_p6xtvf.png",
     image4:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718804893/image4.ong_xkwzl5.png",
