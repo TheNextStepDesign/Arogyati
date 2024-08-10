@@ -4,30 +4,30 @@ import { landingImages } from '@/assets/images-data/landing';
 
 const data = [
     {
-      title: "Dummy reviews",
+      title: "Nalini Sheth",
       paragraph: [
-        "A testimonial is a first-hand account of someone's experience with a product, service, or company. They are often used in advertising and marketing materials to build trust and credibility with potential customers. When used thoughtfully, testimonials can be one of your most potent marketing weapons.",
+        "I had an shoulder pain for 2 weeks and couldn't move due to severe pain and rigidness thanks to Dr Pranjali Dhamane mam due to her help I have no pain and got better. They have very much advance technologies like Matrix, laser magnetodyn. Thank you so much to her team too",
       ],
       footer: landingImages.starIcon,
     },
     {
-      title: "Dummy reviews",
+      title: "Sujata Nagavkar",
       paragraph: [
-        "A testimonial is a first-hand account of someone's experience with a product, service, or company. They are often used in advertising and marketing materials to build trust and credibility with potential customers. When used thoughtfully, testimonials can be one of your most potent marketing weapons.",
+        "Both doctors and staff are very helping and caring nature. they explain u what the problem is  and how patient should take care of them self. Plus they are providing weekly assistance. Thank you all.",
       ],
       footer: landingImages.starIcon,
     },
     {
-      title: "Dummy reviews",
+      title: "Soham Khamkar",
       paragraph: [
-        "A testimonial is a first-hand account of someone's experience with a product, service, or company. They are often used in advertising and marketing materials to build trust and credibility with potential customers. When used thoughtfully, testimonials can be one of your most potent marketing weapons.",
+        "I would highly recommend institute of physiotherapy and rehabilitation centre. I was having S I joint since 10 days, Dr pranjali patiently heard my issues then she explained me the problem and accordingly suggested me the line of the treatment. So after 10 days of treatment I felt relief. I can play football. So thank you mam",
       ],
       footer: landingImages.starIcon,
     },
     {
-      title: "Dummy reviews",
+      title: "Shashi Doshi",
       paragraph: [
-        "A testimonial is a first-hand account of someone's experience with a product, service, or company. They are often used in advertising and marketing materials to build trust and credibility with potential customers. When used thoughtfully, testimonials can be one of your most potent marketing weapons.",
+        "I was coming for my back pain. Pain was since 6 months .after taking treatment here I feel Better . They have given me matrix rhythm therapy, laser, and all exercises. Now I'm much more. Better. \nThank you Dr pranjali ma'am and their team.",
       ],
       footer: landingImages.starIcon,
     },

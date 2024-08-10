@@ -18,7 +18,7 @@ const items = [
   {
     icon: <RiInstagramFill size={"25"} color="#7D8E39" />,
     label: "arogyati",
-    path: "/instagram",
+    path: "https://www.instagram.com/arogyati?igsh=Z3FoOGw5eTlkNXhn",
   },
   {
     icon: <MdLocationPin size={"25"} color="#7D8E39" />,
