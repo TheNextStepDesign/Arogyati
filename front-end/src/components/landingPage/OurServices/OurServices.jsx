@@ -9,7 +9,7 @@ import { laptopWidth, mobileWidth, monitorWidth } from '@/lib/css'
 const OurServices = () => {
   return (
     <div id='Services' className="bg-[#dedede] relative overflow-hidden ">
-        <div className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}]  m-auto flex flex-col  md:items-center md:flex-row   py-10 md:gap-10`} >
+        <div className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}]  m-auto flex flex-col-reverse   md:items-center md:flex-row   py-10 md:gap-10`} >
             <Leftside/>
             <Rightside/>
         </div>

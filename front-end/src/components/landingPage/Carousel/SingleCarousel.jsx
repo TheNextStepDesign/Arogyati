@@ -63,8 +63,8 @@ const SingleCarousel = ({ images }) => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious down={true} />
-        <CarouselNext down={true} />
+        {/* <CarouselPrevious down={true} /> */}
+        {/* <CarouselNext down={true} /> */}
       </Carousel>
       {/* <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
         {images.map((_, index) => (
