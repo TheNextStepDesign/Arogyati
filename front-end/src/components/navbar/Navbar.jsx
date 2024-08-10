@@ -31,6 +31,7 @@ const Navbar = () => {
   };
 
 
+  
   return (
     <Headroom className="relative z-30">
       <nav className="dark:bg-gray-900 bg-white bg-opacity-30 backdrop-blur-lg shadow-lg">
@@ -51,7 +52,7 @@ const Navbar = () => {
       </nav>
 
       {toggle ? (
-       <Manubar navlinks={navlinks} handleToggle={handleToggle} />
+       <Manubar navlinks={navlinks1} handleToggle={handleToggle} />
       ) : null}
     </Headroom>
   );

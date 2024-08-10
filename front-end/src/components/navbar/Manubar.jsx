@@ -13,20 +13,21 @@ const Manubar = ({navlinks,handleToggle}) => {
           <div className="flex flex-col gap-3">
             {navlinks.map((item,index) => (
               <NavLink
+              to={item.to}
                 key={index}
                 className={({ isActive }) =>
                   isActive
                     ? "block py-2 px-3 text-[#406CB4]  rounded md:bg-transparent md:text-[#406CB4]  dark:text-white md:dark:text-[#406CB4]"
-                    : "block py-2 px-3 text-white  rounded md:bg-transparent md:text-white  dark:text-white md:dark:text-white"
+                    : "block py-2 px-3 text-[#707C3E]  rounded md:bg-transparent md:text-[#707C3E]  dark:text-white md:dark:text-[#707C3E]"
                 }
                 aria-current="page"
               >
-                <ScrollNav to={item.to}   >
+                {/* <ScrollNav to={item.to}   > */}
                   <p onClick={handleToggle} >
 
                           {item.name}
                   </p>
-                </ScrollNav>
+                {/* </ScrollNav> */}
               </NavLink>
             ))}
           </div>
