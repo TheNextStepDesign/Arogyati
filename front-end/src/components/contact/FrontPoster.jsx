@@ -6,7 +6,7 @@ import CustomH2 from "../landingPage/comman/CustomHeading"
 const FrontPoster = () => {
   return (
     <div>
-        <div className={`md:bg-[url("https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723299070/Hero-BG_meidla.png")] bg-cover bg-center md:h-[750px] bg-[#b6c480]  w-full py-10 md:py-0`}>
+        <div className={`md:bg-[url("https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723442508/Hero-BG_meidla.webp")] bg-cover bg-center md:h-[750px] bg-[#b6c480]  w-full py-10 md:py-0`}>
             <div className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}] m-auto flex items-center justify-center md:justify-end h-full `}>
 
 

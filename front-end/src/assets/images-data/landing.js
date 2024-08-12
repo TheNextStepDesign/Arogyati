@@ -1,11 +1,11 @@
 export const landingImages ={
     navIcon:"/logos/navLogo.svg",
-    frontPoster:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723295409/Frame_97_kltk7o.png", //
-    frontPosterMob:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723293472/Mask_group_ssydk9.png", //
-    image1:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723297498/Mask_group1_addu2r.png", //
-    image2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723286397/img2_lvxebf.png",
-    image3:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723297735/Frame_52_nm5tmg.png",
-    image4:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723290546/xyz_kv8mxt.png",//
+    frontPoster:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723443037/Frame_97_kltk7o.png", //1
+    frontPosterMob:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723443107/Mask_group_ssydk9.png", //1
+    image1:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723443200/Mask_group_kegnkg.png", //1
+    image2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723443283/img2_lvxebf.png", //1
+    image3:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723443347/Frame_52_nm5tmg.png", //1
+    image4:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723443473/xyz_kv8mxt.webp",//1
     greenSvg:"/icons/greensvg.svg",
     starIcon:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1718805184/star_hhbmea.jpg",
     formImg: "/images/form.png",
@@ -16,9 +16,9 @@ export const landingImages ={
 }
 
 export const serviceFacalityImages ={
-    frontPoster: 'https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723292482/Frame_94_ltpc7u.png',
-    frontPosterMob:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723289780/Component_8_cqafrj.png",
-    image2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723291439/Isolation_Mode_paldlk.png"
+    frontPoster: 'https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723443576/Frame_94_ltpc7u.webp',//1
+    frontPosterMob:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723443643/Component_8_cqafrj.webp",//1
+    image2:"https://res.cloudinary.com/dw3xsfb9z/image/upload/v1723443754/Isolation_Mode_paldlk.png"//1
 }
 
 
