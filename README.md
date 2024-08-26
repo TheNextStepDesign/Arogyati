@@ -2,7 +2,6 @@
 
 Arogyati Clinic is a Physiotherapy Center and Psychological Counselling.
 
-![Colorful Blue and Purple Animated YouTube Outro](https://github.com/TheNextStepDesign/Arogyati/assets/171408064/011b639d-25da-40f2-90c5-4624c709ac15)
 
 ## Features
 
