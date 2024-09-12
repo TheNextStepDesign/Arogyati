@@ -1,9 +1,6 @@
 import React from "react";
 import Form from "./Form";
 import Testimonial from "./Testimonial";
-import { laptopWidth, mobileWidth, monitorWidth } from "@/lib/css";
-
-
 
 const FormTestimonial = () => {
   return (
@@ -12,7 +9,7 @@ const FormTestimonial = () => {
         <Form/>
         <Testimonial/>
       </div>
-      {/* <img src={landingImages.greenSvg}  alt="green-svg" className='p-0 rotate-180 absolute left-[-1200px] bottom-[-1010px] z-0' /> */}
+      
     </div>
   );
 };

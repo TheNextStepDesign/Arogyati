@@ -53,7 +53,6 @@ const ServicesCard = () => {
                             <CustomH2>Our Services</CustomH2>
                         </div>
                         <div className='flex flex-wrap gap-2 ' >
-
                             {
                                 data.map((el,index)=><div key={index} className=' w-[48%] sm:w-[48%] md:w-[30%] lg:w-[23%] h-[180px] md:h-[245px]' >
                                     <Card className='h-full flex justify-center items-center bg-[#cbcaca]  hover:shadow-[#7D8E39] cursor-pointer' >
@@ -63,7 +62,6 @@ const ServicesCard = () => {
                                     </Card>
                                 </div>)
                             }
-
                         </div>
                     </div>
                 </div>

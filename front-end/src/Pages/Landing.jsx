@@ -7,7 +7,6 @@ import HeroSection from '@/components/landingPage/HeroSection/HeroSection'
 import Introduction from '@/components/landingPage/Introduction/Introduction'
 import OurServices from '@/components/landingPage/OurServices/OurServices'
 import Vision from '@/components/landingPage/Vision/Vision'
-import Parallax from '@/components/landingPage/comman/Parallax'
 import FrontPoster from '@/components/landingPage/frontposter/FrontPoster'
 import React, { useEffect } from 'react'
 
@@ -22,7 +21,6 @@ const Landing = () => {
   return (
     <div >
         <FrontPoster img={landingImages.frontPoster} img2={landingImages.frontPosterMob} />
-        {/* <Parallax bgImage={landingImages.frontPoster} /> */}
         <HeroSection/>
         <Introduction/>
         <About/>

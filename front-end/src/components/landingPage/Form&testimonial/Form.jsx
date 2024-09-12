@@ -1,6 +1,4 @@
-import { landingImages } from '@/assets/images-data/landing'
 import React from 'react'
-import FormModal from './FormModal'
 import FormElement from './FormElement'
 
 const Form = () => {
@@ -10,16 +8,7 @@ const Form = () => {
             Appointment Form
           </h1>
           <div className=" relative group w-[100%] md:w-[50%] p-4 z-5  flex items-center justify-center  ">
-            {/* <img
-              src={landingImages.formImg}
-              alt="form-img"
-              className="w-[100%]"
-            />
-            <div className="absolute w-full h-full bg-opacity-50 bg-black hidden group-hover:flex items-center justify-center">
-              <FormModal/>
-            </div> */}
             <FormElement/>
-
           </div>
         </div>
   )
