@@ -93,7 +93,7 @@ export default function Footer() {
         className={`bg-neutral-600 p-4  text-[#7D8E39] dark:bg-neutral-700 dark:text-neutral-200 `}
       >
         <div
-          className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}] m-auto flex justify-between text-gray-400 font-light`}
+          className={`w-[${mobileWidth}] lg:w-[${laptopWidth}] 2xl:w-[${monitorWidth}] m-auto flex flex-col md:flex-row justify-center text-center md:text-left gap-2 md:justify-between text-gray-400 font-light`}
         >
           <div>
             © 2025 Copyright:
