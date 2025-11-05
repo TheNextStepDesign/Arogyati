@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom'
 import Landing from './Landing'
 import Services from './Services'
 import Contact from './Contact'
+import PrivacyPolicy from './PrivacyPolicy'
+import TermsAndConditions from './TermsAndConditions'
 
 const AllRoutes = () => {
   return (
@@ -14,6 +16,9 @@ const AllRoutes = () => {
         <Route  path='/form' element={<Landing/>} />
         <Route  path='/testimonial' element={<Landing/>} />
         <Route  path='/contact' element={<Contact/>} />
+        <Route  path='/privacy-policy' element={<PrivacyPolicy/>} />
+        <Route  path='/terms-and-conditions' element={<TermsAndConditions/>} />
+        
     </Routes>
   )
 }

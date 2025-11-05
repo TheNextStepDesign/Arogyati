@@ -1,20 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { Button } from './components/ui/button'
 import Navbar from './components/navbar/Navbar'
 import AllRoutes from './Pages/AllRoutes'
 import Footer from './components/footer/Footer'
+import { useLocation } from 'react-router-dom';
+import { NO_NAV_FOOTER_PATHS } from './lib/constants';
 
 function App() {
+  const location = useLocation();
   
-
+  // Check if the current path is in the array of restricted paths
+  const hideNavAndFooter = NO_NAV_FOOTER_PATHS.includes(location.pathname);
   return (
     <div className='p-0 font-sora' >
-      <Navbar/>
+      
+      {!hideNavAndFooter && <Navbar />}
       <AllRoutes/>
-      <Footer/>
+      
+      {!hideNavAndFooter && <Footer />}
     </div>
   )
 }
